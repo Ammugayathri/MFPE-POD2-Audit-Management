@@ -4,8 +4,8 @@ header {
     height : 6vh;
     left:0%;
     color: aliceblue;
-    background-color: #110338;
-    border: 1px solid rgb(23, 3, 95);
+    background-color: #191919;
+    border: 1px solid black;
 }
 
 img {
@@ -17,9 +17,8 @@ img {
 }
 
 .headerTitle {
-    /* margin-left: 0%; */
+    margin-left: 0%; 
     margin-top: 10px;
-    margin: auto;
 
 }
 
