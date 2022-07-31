@@ -1,78 +1,187 @@
-header {
-    position: absolute;
-    width : 100%;
-    height : 6vh;
-    left:0%;
-    color: aliceblue;
-    background-color: #191919;
-    border: 1px solid black;
+h4 {
+    margin-left: 77%;
+    margin-top: 20px;
 }
-
 img {
     border-radius: 50%;
-    max-height: 5vh;
-    margin: 5px;
-    margin-top: 9px;
-    
+    max-height: 8vh;
+    margin: 4px;
 }
 
-.headerTitle {
-    margin-left: 0%; 
-    margin-top: 10px;
-
-}
-
-.userInfo {
-    /* background-color: black; */
-    border: 2px solid white;
-    color: white; 
+section{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+} 
+.userIn {
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
     position: absolute;
-    margin-top: 12px;
-    width: 150px;
-    right:10vh;
-    border-radius: 10px;
+    margin-top: 5px;
+    right:2vh;
+    border-radius: 18px;
     padding: 4px;
     text-align: center;
 }
+.logout{
+    color: #fff;
+    position: fixed;
+    margin-top: 6vh;
+    right:5.5vh;
+}
+.box1 {
+    background-color: #191919;
+    margin-top: 12vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    padding: 10px;
+    color: #fff;
+    text-align: center; 
+    border-radius: 10px;
+  }
+  .box2 {
+    background-color: lightgreen;
+    margin-top: 4vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    width:90%;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .dropclass{
+      margin-top: 75px;
+      margin-left: 20%;
+  }
+  .btn1{
+      border-radius: 5px;
+      width:75px;
+  }
+  th{
+      font-size: x-large;
+  }
+  .leftside{
+      padding-left: 15px;
+      text-align: center;
+      width: 30%;
+      border-color: #fff;
+      border-width: 1px;
+      border-top-left-radius: 10px;
+      border-left: 0px;
+  }
+  .rightside{
+      padding-top: 2px;
+      padding-bottom: 2px;
+      text-align: center;
+      width: 20%;
+      border-color: #fff;
+      border-width: 1px;
+      border-radius: 10px;
+      border-right: 1px;
+  }
+  .rightend{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 30%;
+    border-color: #fff;
+    border-width: 1px;
+    border-radius: 10px;
+    border-right: 0px;
+    border-left: 1px;
+}
+  .topside{
+      border-top: 0px;
+      border-right: 0px;
+  }
+  .yesbtn{
+      margin-right: 10px;
+      border-radius: 5px;
+      width: 50px;
+  }
+  .nobtn{
+    border-radius: 5px;
+    width: 50px;
+}
+  #opt{
+      width: 100px;
+    border-radius: 5px;
+  }
+  .finalsubmitbtn{
+      position: absolute;
+      left: 50%;
+      margin-top: 10px;
+      border-radius: 5px;
+      width:75px;
+      margin-bottom: 10%;
+      text-align: center;
+      left: 47%;
+  }
+  .lastrow{
+      border-bottom: 0px;
+  }
+.checkbtn  {
+    background-color: green;
+}
+.checkbtn:focus {     
+    background-color:yellow;    
+}
+.checkbtn:visited {
+    background-color: black;
+}
 
-h6{
+.qdiv{
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+.qdivbtn{
+    background-color: lightgreen;
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.main{
+    background: linear-gradient(to right, rgb(219, 235, 117), rgb(239, 226, 113), rgb(214, 184, 113));
+    position: absolute;
+    z-index: -1;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+
+.bigbtn, .lastbtn{
+    width: 120px;
+}
+.bigbtn{
+    padding: 5px;
+}
+
+.largeLable{
+    font-size: large;
+}
+
+.selectTag{
+    position: absolute;
+    top:90px;
+    left:870px;
+    width: 270px;
+    height: 5vh;
+}
+.tab1{
+    text-align: center;
+}
+.error-message{
+    position: absolute;
     margin: 0%;
-}
-
-.username-pic{
-    position: absolute;
-    width: 33px;
-    height: 33px;
-    top: 3px;
-    right:32vh;
-}
-
-.logout-pic{
-    position: absolute;
-    right: 25px;
-    width: 30px;
-    height: 30px;
-    top: 12px;
-}
-
-.gotopages{
-    position: absolute;
-    top: 5px;
-    right:52vh;
-}
-#navbarNav{
-    /* background-color: lightseagreen; */
-    /* color: white; */
-    position: absolute;
-    padding-top: 1vh;
-    left: 2vw;
-    z-index:2;
-    /* border-left: 1px solid;
-    border-color: white;
-    padding-left: 15px; */
-}
-
-.nav-item :hover{
-    background-color: rgb(141, 219, 250);
-    color: #191919;
+    margin-bottom: 10px;
+    text-align: center;
+    left: 600px;
+    color: black;
 }
