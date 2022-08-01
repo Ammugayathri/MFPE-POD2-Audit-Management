@@ -30,9 +30,9 @@
             <tr *ngFor="let question of questions;let i = index">
                 <td class="leftside" name="question" >{{question.question}}</td>
                 <td class="rightend" name="response_table_data" >
-                    <input type="radio" name = "sme" id = "choice1"  value="YES" class="btn btn-success mx-4 px-4" (click) = "responseYes(i)"/>
+                    <input type="radio" name = "{{question.question}}" id = "choice1"  value="YES" class="btn btn-success mx-4 px-4" (click) = "responseYes(i)"/>
                     <label for="choice1">YES</label>
-                    <input type="radio" name = "sme" id = "choice2" value="NO" class="btn btn-danger mx-4 px-4"(click) = "responseNo(i)"/>
+                    <input type="radio" name = "{{question.question}}" id = "choice2" value="NO" class="btn btn-danger mx-4 px-4"(click) = "responseNo(i)"/>
                     <label for="choice2">NO</label>
                 </td>
                 <td class="rightside" name="auditType">{{question.response}}</td>
